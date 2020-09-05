@@ -1,0 +1,166 @@
+.container{
+	width: 1050px;
+	border: 1px solid grey;
+	margin: 0 auto;
+}
+
+.header{
+	height: 100px;
+	padding: 10px 0;
+}
+
+.brand{
+	float: left;
+}
+
+h1 a{
+	font-size: 50px;
+	font-weight: 100;
+	text-decoration: none;
+	color: #86188f;
+}
+
+.searchbox{
+	float: right;
+	background: linear-gradient(#e4f289, #b7e953);
+	width: 400px;
+	height: 50px;
+	padding: 20px 20px 0 20px;
+	margin-top: 20px;
+}
+
+.text{
+	float: left;
+	width: 200px;
+	padding: 5px;
+	font-size: 15px;
+	color: #e36a0c;
+}
+
+.submit{
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+	background: #a751d6;
+	font-size: 15px;
+}
+
+.clear{
+	clear: both;
+}
+
+.menu{
+	height: 70px;
+	background: linear-gradient(#f8f594, #d5d533);
+	padding: 7px 0;
+}
+
+ul{
+	list-style: none;
+}
+
+.menu ul li{
+	float: left;
+	padding: 0 30px;
+	height: 20px;
+	border-right: 1px solid #5d12e7;
+}
+
+.menu ul li:last-child{
+	border-right: none;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #5d12e7;
+	line-height: 30px;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+}
+
+.menu ul li a:hover, .menu ul li a.active{
+	font-size: 20px;
+	font-weight: bold;
+	color: #b314db;
+}
+
+.introduction{
+	background: linear-gradient(#e4f289, #b7e953);
+	padding: 30px;
+	margin: 10px 0;
+}
+
+.introduction h3{
+	color: #316901;
+	font-size: 45px;
+	font-weight: normal;
+}
+
+.introduction p{
+	color: #628f19;
+	font-size: 25px;
+	text-align: justify;
+}
+
+.sidebar{
+	height: 550px;
+	width: 400px;
+	border: 1px solid #baf46f;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+
+.sidebar h3{
+	color: #b314db;
+	font-size: 30px;
+}
+
+.sidebar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #5d12e7;
+
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+	text-decoration: none;
+	color: #b314db;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.leftsb{
+	float: left;
+}
+
+.leftsb ul{
+	padding-top: 8px;
+}
+
+.leftsb ul li{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 5px;
+	list-style-image: url(arrow.png);
+}
+
+.rightsb{
+	float: right;
+}
+
+.rightsb ul li{
+	padding-bottom: 6px;
+	padding-left: 5px;
+	list-style-image: url(tick.png);
+}
